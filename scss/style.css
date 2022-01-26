@@ -45,6 +45,15 @@ body {
   height: 85vh;
 }
 
+@media (min-width: 1200px) {
+  .hero--wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .hero--image {
   -ms-grid-column-align: center;
       justify-self: center;
