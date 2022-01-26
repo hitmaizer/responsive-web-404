@@ -8,4 +8,8 @@
 body {
   font-family: 'Space Mono', monospace;
 }
+
+.wrapper {
+  width: 1440px;
+}
 /*# sourceMappingURL=style.css.map */
